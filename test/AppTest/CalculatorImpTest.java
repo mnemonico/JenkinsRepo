@@ -80,5 +80,21 @@ public class CalculatorImpTest {
         // TODO review the generated test code and remove the default call to fail.
         //fail("The test case is a prototype.");
     }
+
+    /**
+     * Test of modulo method, of class CalculatorImp.
+     */
+    @Test
+    public void testModulo() {
+        System.out.println("modulo");
+        double a = 10;
+        double b = 4;
+        CalculatorImp instance = new CalculatorImp();
+        double expResult = 2;
+        double result = instance.modulo(a, b);
+        assertEquals(expResult, result, 0.0);
+        // TODO review the generated test code and remove the default call to fail.
+        //fail("The test case is a prototype.");
+    }
     
 }

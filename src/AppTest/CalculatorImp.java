@@ -32,5 +32,10 @@ public class CalculatorImp implements Calculator{
     public int substract(int a, int b) {
                 return a-b;
     }
+
+    @Override
+    public double modulo(double a, double b) {
+                return a%b;
+    }
     
 }

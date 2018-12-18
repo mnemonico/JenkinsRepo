@@ -15,5 +15,6 @@ public interface Calculator {
 	double divide(double a, double b);
 	int add(int a, int b);
 	int substract(int a, int b);
+        double modulo(double a, double b);
     
 }
